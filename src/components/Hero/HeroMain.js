@@ -1,19 +1,12 @@
 import React from 'react'
-import TopSection from './TopSection'
-import MidSection from './MidSection'
-import EndSection from './EndSection'
+import Slider from './TopSection/Slider'
 
 export default function HeroMain() {
     return (
         <div>
             <br/>
-            <TopSection/>
+            <Slider/>
             <br/>
-            {/* <MidSection/>
-            <br/>
-            <EndSection/>
-            <br/> */}
-
         </div>
     )
 }

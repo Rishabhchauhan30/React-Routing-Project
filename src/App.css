@@ -4,3 +4,15 @@
     box-sizing: border-box;
     
 }
+
+h1 {
+    /* display: flex; */
+    color: #db5d67;
+    font-family: ubuntu;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    align-items:initial;
+    text-align: center;
+}

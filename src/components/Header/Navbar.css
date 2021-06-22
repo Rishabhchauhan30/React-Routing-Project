@@ -13,6 +13,7 @@ nav {
     font-family: ubuntu;
     background-color: #db5d67;
     color: #fff;
+    margin-bottom: 15px;
 }
 nav .logo i{
     font-size: 18px;
@@ -33,16 +34,22 @@ nav .nav-links a {
     font-size: 18px;
     font-weight: normal;
     cursor: pointer;
+    color:white;
 }
 
 nav .nav-links a:hover {
-    color: #555;
+    color: rgb(8, 8, 6);
 }
 
 nav .burger {
     font-size: 23px;
     display: none;
     cursor: pointer;
+}
+
+nav .nav-links .active_class {
+    /* color: rgb(73, 122, 163); */
+    color: #61dafb;
 }
 
 /* responsive */
@@ -53,6 +60,7 @@ nav .burger {
     }
 
     nav .nav-links {
+        z-index: 100;
         position: absolute;
         display: block;
         top: 0;
@@ -63,6 +71,7 @@ nav .burger {
         width: 50%;
         transform: translateX(-500px);
         transition: 0.5s ease-in-out;
+        margin-bottom: 15px;
     }
 
     nav .nav-links li {
