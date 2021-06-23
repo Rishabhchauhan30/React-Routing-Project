@@ -6,7 +6,6 @@ import Contact from './pages/Contact';
 import Products from './pages/Products';
 import Service from './pages/Service'
 import ErrorPage from './pages/404';
-// import Products from './Products/Products';
 
 function App() {
   return (
@@ -16,14 +15,11 @@ function App() {
         <Route exact path='/about' component={About}/>
         <Route exact path='/contact' component={Contact}/>
         <Route exact path='/products' component={Products}/>
-        <Route exact path='/products/:courseName' component={Products}/>
+        <Route exact path='/products/:clickedItem' component={Products}/>
         <Route exact path='/service' component={Service}/>
         <Route component={ErrorPage}/>
 
       </Switch>
-
-
-
       {/* <TeamSection/>
       <Navbar/>
       <HeroMain/>

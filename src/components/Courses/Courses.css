@@ -1,4 +1,4 @@
-pro {
+course {
     display: flex;
     justify-content: space-around;
     min-height: 10vh;
@@ -8,7 +8,7 @@ pro {
     color: black;
 }
 
-pro .products_links {
+course .courses_links {
     display: flex;
     justify-content: space-around;
     width: 34%;
@@ -19,7 +19,7 @@ pro .products_links {
 
 @media all and (max-width: 767px) {
 
-    pro .products_links{
+    course .courses_links{
         z-index: 100;
         position: absolute;
         display: block;
@@ -33,16 +33,16 @@ pro .products_links {
         transition: 0.5s ease-in-out;
     }
 
-    pro .products_links li {
+    course .courses_links li {
         padding: 25px;
         border-bottom: 1px solid #ccc;
     }
 
-    pro .products_links li:last-of-type {
+    course .courses_links li:last-of-type {
         border-bottom: 0px;
     }
 
-    pro .products_links a:hover {
+    course .courses_links a:hover {
         border-bottom: 0px solid rgb(31, 29, 29);
     }
 

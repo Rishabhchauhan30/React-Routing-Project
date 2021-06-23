@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from '../components/Header/Navbar'
 import Slider from '../components/Hero/TopSection/Slider'
 import { Footer } from '../components/Footer/Footer'
-import Products from '../components/Products/Products'
+// import Courses from '../components/Courses/Courses'
+import CoursesList from '../components/Courses/CoursesList'
 
 function About() {
     return (
         <div>
             <Navbar/>
-            {/* <br/> */}
             <h1>This is Home Page</h1>
             <br/>
             <Slider/>
@@ -16,7 +16,7 @@ function About() {
             <br/>
             <h1>Products</h1>
             <br/>
-            <Products/>
+            <CoursesList/>
             <br/>
             <br/>
             <Footer/>
